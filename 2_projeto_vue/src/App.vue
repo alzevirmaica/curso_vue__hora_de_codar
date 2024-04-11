@@ -3,6 +3,7 @@
     <primeiroComponente />
     <lifeCycle />
     <pessoa />
+    <Form />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import LifeCycle from './components/LifeCycle.vue'
 import Pessoa from './components/Pessoa'
 import PrimeiroComponente from './components/PrimeiroComponente.vue'
+import Form from './components/Form.vue'
 
  export default {
   name: 'App',
@@ -17,21 +19,11 @@ import PrimeiroComponente from './components/PrimeiroComponente.vue'
     PrimeiroComponente,
     LifeCycle,
     Pessoa,
+    Form
   }
  }
 </script>
 
 <style>
-body {
-  background-color: #333;
-  color: #fff;
-}
 
-a {
-  color: red;
-}
-
-.teste {
-  background-color: #000;
-}
 </style>
