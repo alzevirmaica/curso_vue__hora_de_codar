@@ -33,11 +33,13 @@ export default {
     components: {
       Picture
     },
+    props: {
+      email: String,
+      esta_trabalhando: Boolean
+    },
     data() {
       return {
-        esta_trabalhando: true,
         mostrar_email: false,
-        email: 'alzevirm@gmail.com',
         meu_link: 'https://google.com.br',
         textoBotao: 'Mostrar e-mail',
         backend_technologies: [
